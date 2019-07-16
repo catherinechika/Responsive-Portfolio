@@ -12,92 +12,141 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
         .tiger{
-            float: left;
-            position: absolute;
-            left: 740px;
-            top: 265px;
+            /* float: left;
+            position: absolute; */
+            /* left: 740px;
+            top: 265px; */
             object-fit: cover;
-            width: 300px;
-            height: 300px;
-            margin: auto;
+            width: 250px;
+            height: 250px;
+            /* margin: auto; */
         }
-
+ 
         .aecko{
-            float: left;
-            position: absolute;
+            /* float: left;
+            position: absolute; */
             object-fit: cover;
-            width: 300px;
-            height: 300px;
-            margin-top: 40px;
-            margin-left: auto;
-            left: 340px;
+            width: 250px;
+            height: 250px;
+            /* margin-top: 40px;
+            margin-left: auto; */
+            /* left: 340px; */
         }
 
-        .aeckolabel a{
-            float: left;
-            position: absolute;
-            top:525px;
+        /* .aeckolabel a{ */
+            /* float: left; */
+            /* position: absolute;
+            bottom:20px; */
+            /* top:525px; */
+            /* background:  #4aaaa5;
+            width: 280px;
+            height: 20px;
+            padding: 10px;
+            color: white;
+            text-align: center; */
+            /* left: 340px;
+            text-decoration: none; */
+        /* } */
+
+        /* .tigerlabel { */
+            /* float: left; */
+            /* position: absolute;
             background:  #4aaaa5;
             width: 280px;
             height: 20px;
             padding: 10px;
             color: white;
-            text-align: center;
-            left: 340px;
-            text-decoration: none;
-        }
-
-        .tigerlabel {
-            float: left;
-            position: absolute;
-            background:  #4aaaa5;
-            width: 280px;
-            height: 20px;
-            padding: 10px;
-            color: white;
-            text-align: center;
-            top: 526px;
-            left: 740px;
-            text-decoration: none;
-        }
+            text-align: center; */
+            /* top: 526px; */
+            /* left: 740px; */
+            /* text-decoration: none; */
+        /* } */
         
 
        a:hover{
            color: black
        }
-
+       .pic1{ 
+           position: relative;
+           width: 50%;
+           height: 250px;
+       }
+        .aeckolabel{
+          background: #4aaaa5;
+          position: absolute;
+          text-align: center;
+          width: 250px;
+          height: 30px;
+          bottom: 0px;
+          padding-top: 15px;
+       }
+       .pic2{ 
+           float: right;
+           position: relative;
+           width:50%;
+           bottom: 250px;
+           right: 120px;
+           height: 250px;
+       }
+        .tigerlabel{
+         background: #4aaaa5;
+         float: right;
+          position: absolute;
+          width: 250px;
+          height: 30px;
+          bottom: 0px;
+          padding-top: 15px;
+          text-align: center;
+       }
+       .porfolioimg{
+           width: auto;
+           /* height: 700px; */
+           
+       }
+      
     </style>
  </head>
 
  <body>
-        <header>
-                <h1>Chocolate Chip</h1> 
-             <h2>
-                 <a class="index" href="./index.html"> About</a>
-                 |
-                <a class="port" href="./portfolio.html"> Portfolio</a>
-                |
-                <a class="contact" href="./contact.html"> Contact</a>
-                
-            </h2>
-                
-        </header>
+    <header>
+        
+        <h1>Chocolate Chip</h1> 
+        
+         <h2>
+        <a class="index" href="./index.html"> About   </a>
+         |
+        <a class="port" href="./portfolio.html"> Portfolio  </a>
+        |
+        <a class="contact" href="./contact.html"> Contact</a>
+        
+         </h2>
+        
+    </header>
         
         <div class="pagecontent">
         <h3>Portfolio</h3>
             
-            <p>
+            <!-- <p> -->
+            <div class="porfolioimg">
+                <a href="https://www.aeckomirageinc.com/">
+                    <div class="pic1">
+                        <img class="aecko" src="assets/images/Aecko Mirage Logo.png" alt="Aecko"> 
+                        <div class="aeckolabel">AECKO Mirage Inc.</div>
+                    </div>
+                </a>
+
+                <a href="https://www.catherinechika.com/">
+                    <div class="pic2">
+                        <img class="tiger" src="assets/images/Catherine Chika Tigers 3.JPG" alt="Catherine Chika" >
+                        <div class="tigerlabel">Catherine Chika</div>
+                    </div>
+                </a>
+            </div>
+         </div>
+        
             
-                <a class="pic1" href="https://www.aeckomirageinc.com/">
-                <img class="aecko" src="assets/images/Aecko Mirage Logo.png" alt="Aecko"> 
-                <div class="aeckolabel">Official AECKO Mirage Inc.</div>
-            </a>
-                <a class="pic2" href="https://www.catherinechika.com/">
-                <img class="tiger" src="assets/images/Catherine Chika Tigers 3.JPG" alt="Catherine Chika" >
-                <div class="tigerlabel">Official Website for Catherine Chika</div>
-            </a>
             
-            </p>
+            <!-- </p> -->
             
         </div>
         <footer>copyright <i class="fas fa-copyright"></i></footer>

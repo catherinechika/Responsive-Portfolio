@@ -134,31 +134,10 @@ footer{
             height: auto;
      }
     
-    .pic1{
-        position: absolute;
-        left: -250px;
-    }
-
-    .aeckolabel a{
-        float: left;
-        position: relative; 
-        top:35px;
-        width: auto;
-        height: auto;
-        right: 20px;
-        /* text-decoration: none; */
-    }
-
-    /* .aeckolabel{
-        position: absolute;
-        left: -100px;
-    } */
-
-    .pic2{
-        position: relative;
-        right: 250px;
-        bottom:230px;
-    }
+     .pic2{
+         position: relative;
+         left: 40px;
+     }
 }
 
  @media only screen and (max-width: 768px) {
@@ -176,11 +155,11 @@ footer{
         width: 100%;
         height: auto;
     }
-        .pagecontent{
-            margin-top: 150px;
-            width: auto;
-            margin-right: 20px;
-            margin-left: 20px;
+    .pagecontent{
+        margin-top: 150px;
+        width: auto;
+        margin-right: 20px;
+        margin-left: 20px;
         }
     } 
 @media only screen and (max-width: 640px) {
@@ -207,6 +186,14 @@ footer{
         margin-top: 150px;
         margin-right: 20px;
         margin-left: 20px;
+        width: auto;
+        height: auto;
+    }
+    .pic1{
+        width: 100px;
+    }
+     .tiger{
+        width: 200px;
     }
 } 
 
